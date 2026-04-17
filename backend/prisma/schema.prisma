@@ -1,0 +1,41 @@
+// Prisma schema for the Osmanlı Bilgi Yarışı backend.
+// After editing, run: npx prisma migrate dev --name <change-name>
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  // Apple's stable user identifier ("sub" claim). Immutable, opaque, per-app.
+  appleSub  String   @unique
+  email     String?
+  name      String?
+  // Denormalized subscription state, updated by the RevenueCat webhook.
+  // For the authoritative state, always ask RevenueCat — this is just a fast cache.
+  isPremium Boolean  @default(false)
+  premiumExpiresAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subscriptionEvents SubscriptionEvent[]
+}
+
+/// Audit log of raw RevenueCat webhook events we've processed for this user.
+/// Useful for debugging support requests ("why is my subscription not active?").
+model SubscriptionEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  eventType String   // e.g. INITIAL_PURCHASE, RENEWAL, CANCELLATION, EXPIRATION
+  productId String?
+  payload   Json
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}

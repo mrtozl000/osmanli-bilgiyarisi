@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CEC360CA391FA87ECAC4979 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72653EDC9808DB6179E94F86 /* Models.swift */; };
+		2882E4343AD053D51C11672C /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6218A89CDDF50C69BE1E6D /* PaywallView.swift */; };
+		44C00B2EC5D9E5032B0F527A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7EBB01FC0AD2C53846C75 /* ResultView.swift */; };
+		53DE581C0A0B520EC768D08A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C967749277B99E241F3B2CB /* QuizView.swift */; };
+		589EA9624BE31EF3C6DE3992 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3BADCF578524AAA8E0A8E /* SubscriptionManager.swift */; };
+		71C6BFD1613D29440746AD0A /* OsmanliBilgiYarisiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511025FDB49D56C16502413 /* OsmanliBilgiYarisiApp.swift */; };
+		8A025C9C2F5B838E0071B3E8 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A025C9B2F5B838E0071B3E8 /* CertificateView.swift */; };
+		8E6CE1F78166C27BB97D4C0F /* Pods_OsmanliBilgiYarisi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A24DD9A21ACC244CFB2E18 /* Pods_OsmanliBilgiYarisi.framework */; };
+		8F4D60A5BEA19447F1A283BF /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443991C605876A5F6EF5E7F /* QuestionData.swift */; };
+		A32D2D32A7D0CCE92359C062 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B287538B52E4D553F8486 /* HomeView.swift */; };
+		FB1D1909543E2C0D8BA3976D /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A6F509D33B2C403997477 /* AdManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DD7AF994E1749BAA3575AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1443991C605876A5F6EF5E7F /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		1C2B287538B52E4D553F8486 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1D6218A89CDDF50C69BE1E6D /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		4CB65AAF21B3835270694D01 /* OsmanliBilgiYarisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsmanliBilgiYarisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5511025FDB49D56C16502413 /* OsmanliBilgiYarisiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsmanliBilgiYarisiApp.swift; sourceTree = "<group>"; };
+		55A7EBB01FC0AD2C53846C75 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6C967749277B99E241F3B2CB /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		72653EDC9808DB6179E94F86 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8A025C9B2F5B838E0071B3E8 /* CertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		992A6F509D33B2C403997477 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		B6A24DD9A21ACC244CFB2E18 /* Pods_OsmanliBilgiYarisi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsmanliBilgiYarisi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED1E059764CDF77CAFA45CA /* Pods-OsmanliBilgiYarisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsmanliBilgiYarisi.debug.xcconfig"; path = "Target Support Files/Pods-OsmanliBilgiYarisi/Pods-OsmanliBilgiYarisi.debug.xcconfig"; sourceTree = "<group>"; };
+		DBE3BADCF578524AAA8E0A8E /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		DC66FA31F47BF631E6DED5C6 /* Pods-OsmanliBilgiYarisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsmanliBilgiYarisi.release.xcconfig"; path = "Target Support Files/Pods-OsmanliBilgiYarisi/Pods-OsmanliBilgiYarisi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D933C3DAF33512F5C3D5FAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6CE1F78166C27BB97D4C0F /* Pods_OsmanliBilgiYarisi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CC1B4EC1AFBDAB37803825 = {
+			isa = PBXGroup;
+			children = (
+				44CC2D8FD89129CA8CB53595 /* Sources */,
+				785D2A36491FE093B4CB9553 /* Products */,
+				3F3CD553FD68AD8EF3DF3E9C /* Pods */,
+				A0B6E4C2778BA31641B87C47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA2DDB77B29AC24BFDAF421 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72653EDC9808DB6179E94F86 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FC4E9F449546172CDDF1EDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C2B287538B52E4D553F8486 /* HomeView.swift */,
+				1D6218A89CDDF50C69BE1E6D /* PaywallView.swift */,
+				6C967749277B99E241F3B2CB /* QuizView.swift */,
+				55A7EBB01FC0AD2C53846C75 /* ResultView.swift */,
+				8A025C9B2F5B838E0071B3E8 /* CertificateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F3CD553FD68AD8EF3DF3E9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BED1E059764CDF77CAFA45CA /* Pods-OsmanliBilgiYarisi.debug.xcconfig */,
+				DC66FA31F47BF631E6DED5C6 /* Pods-OsmanliBilgiYarisi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44CC2D8FD89129CA8CB53595 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				00DD7AF994E1749BAA3575AB /* Info.plist */,
+				A78C2AD793F249D2CC0A3B94 /* App */,
+				FC1F8C5BE5C2CD446AE0FE75 /* Data */,
+				1AA2DDB77B29AC24BFDAF421 /* Models */,
+				EB48CFE70B5B9C01EB63C646 /* Utils */,
+				2FC4E9F449546172CDDF1EDE /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		785D2A36491FE093B4CB9553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB65AAF21B3835270694D01 /* OsmanliBilgiYarisi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B6E4C2778BA31641B87C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A24DD9A21ACC244CFB2E18 /* Pods_OsmanliBilgiYarisi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78C2AD793F249D2CC0A3B94 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5511025FDB49D56C16502413 /* OsmanliBilgiYarisiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB48CFE70B5B9C01EB63C646 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				992A6F509D33B2C403997477 /* AdManager.swift */,
+				DBE3BADCF578524AAA8E0A8E /* SubscriptionManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC1F8C5BE5C2CD446AE0FE75 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1443991C605876A5F6EF5E7F /* QuestionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423CFB8DFBC22076DB027428 /* OsmanliBilgiYarisi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A338E313C0EB7A9B558588 /* Build configuration list for PBXNativeTarget "OsmanliBilgiYarisi" */;
+			buildPhases = (
+				4DA0C4ED9669EE6B86D15662 /* [CP] Check Pods Manifest.lock */,
+				1E7F0CA72BD377F273E55FCF /* Sources */,
+				D933C3DAF33512F5C3D5FAA5 /* Frameworks */,
+				DAC630D1AC0B5C2FB9D2151A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsmanliBilgiYarisi;
+			productName = OsmanliBilgiYarisi;
+			productReference = 4CB65AAF21B3835270694D01 /* OsmanliBilgiYarisi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09AEF98983AE04CEAD55F801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 1C3495704B935DD71900BA2E /* Build configuration list for PBXProject "OsmanliBilgiYarisi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 03CC1B4EC1AFBDAB37803825;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 785D2A36491FE093B4CB9553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423CFB8DFBC22076DB027428 /* OsmanliBilgiYarisi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DA0C4ED9669EE6B86D15662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OsmanliBilgiYarisi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC630D1AC0B5C2FB9D2151A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OsmanliBilgiYarisi/Pods-OsmanliBilgiYarisi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OsmanliBilgiYarisi/Pods-OsmanliBilgiYarisi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OsmanliBilgiYarisi/Pods-OsmanliBilgiYarisi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7F0CA72BD377F273E55FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1D1909543E2C0D8BA3976D /* AdManager.swift in Sources */,
+				A32D2D32A7D0CCE92359C062 /* HomeView.swift in Sources */,
+				1CEC360CA391FA87ECAC4979 /* Models.swift in Sources */,
+				71C6BFD1613D29440746AD0A /* OsmanliBilgiYarisiApp.swift in Sources */,
+				8A025C9C2F5B838E0071B3E8 /* CertificateView.swift in Sources */,
+				2882E4343AD053D51C11672C /* PaywallView.swift in Sources */,
+				8F4D60A5BEA19447F1A283BF /* QuestionData.swift in Sources */,
+				53DE581C0A0B520EC768D08A /* QuizView.swift in Sources */,
+				44C00B2EC5D9E5032B0F527A /* ResultView.swift in Sources */,
+				589EA9624BE31EF3C6DE3992 /* SubscriptionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E0D096A32EF7CEB22C4B466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77BBDB196805948374AA5BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED1E059764CDF77CAFA45CA /* Pods-OsmanliBilgiYarisi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Osmanlı Bilgi Yarışı";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanli.bilgiyarisi;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF25AF755C949799678F1EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FED9FB80EBC24551A1706C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC66FA31F47BF631E6DED5C6 /* Pods-OsmanliBilgiYarisi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Osmanlı Bilgi Yarışı";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanli.bilgiyarisi;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3495704B935DD71900BA2E /* Build configuration list for PBXProject "OsmanliBilgiYarisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D096A32EF7CEB22C4B466 /* Debug */,
+				BF25AF755C949799678F1EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A338E313C0EB7A9B558588 /* Build configuration list for PBXNativeTarget "OsmanliBilgiYarisi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BBDB196805948374AA5BC3 /* Debug */,
+				FED9FB80EBC24551A1706C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09AEF98983AE04CEAD55F801 /* Project object */;
+}
