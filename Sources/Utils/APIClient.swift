@@ -53,6 +53,13 @@ final class APIClient {
         try await post(path: "/api/auth/apple", body: request, auth: false)
     }
 
+    #if DEBUG
+    func testSignIn() async throws -> AppleSignInResponse {
+        struct Empty: Encodable {}
+        return try await post(path: "/api/auth/test", body: Empty(), auth: false)
+    }
+    #endif
+
     struct MeResponse: Decodable {
         let userId: String
         let email: String?

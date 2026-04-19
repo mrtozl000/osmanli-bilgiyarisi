@@ -55,6 +55,20 @@ struct AuthView: View {
                 .cornerRadius(12)
                 .padding(.horizontal, 32)
 
+                #if DEBUG
+                Button {
+                    Task { await auth.testSignIn() }
+                } label: {
+                    Text("Test Girişi (Debug)")
+                        .font(.system(size: 15, weight: .medium))
+                        .foregroundColor(.white.opacity(0.7))
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 44)
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.white.opacity(0.3)))
+                }
+                .padding(.horizontal, 32)
+                #endif
+
                 if auth.isLoading {
                     ProgressView()
                         .progressViewStyle(CircularProgressViewStyle(tint: .white))

@@ -129,6 +129,22 @@ final class AuthManager: ObservableObject {
         }
     }
 
+    #if DEBUG
+    func testSignIn() async {
+        isLoading = true
+        defer { isLoading = false }
+        do {
+            let response: APIClient.AppleSignInResponse = try await APIClient.shared.testSignIn()
+            KeychainHelper.save(response.sessionToken, for: "sessionToken")
+            self.userId = response.userId
+            self.isAuthenticated = true
+            await refreshProfile()
+        } catch {
+            errorMessage = "Test girişi başarısız: \(error.localizedDescription)"
+        }
+    }
+    #endif
+
     func signOut() {
         KeychainHelper.delete("sessionToken")
         userId = nil
