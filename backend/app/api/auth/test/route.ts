@@ -4,7 +4,7 @@ import { issueSession } from "@/lib/session";
 
 // Only available when NODE_ENV is not "production"
 export async function POST() {
-  if (process.env.NODE_ENV === "production") {
+  if (process.env.ENABLE_TEST_AUTH !== "true") {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
